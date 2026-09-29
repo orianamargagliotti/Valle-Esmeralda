@@ -1,0 +1,25 @@
+:root{
+    --color-primario: #7B9669;   
+    --color-secundario: #6C8480; 
+    --color-acento: #BAC8B1;     
+    --color-fondo: #E6E6E6;      
+    --color-texto: #404E3B;      
+    --fuente-principal: "DM Serif Text", serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
