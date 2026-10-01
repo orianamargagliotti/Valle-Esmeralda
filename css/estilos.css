@@ -1,0 +1,130 @@
+:root{
+    --color-primario: #7B9669;   
+    --color-secundario: #6C8480; 
+    --color-acento: #BAC8B1;     
+    --color-fondo: #E6E6E6;      
+    --color-texto: #404E3B;      
+    --fuente-principal: "DM Serif Text", serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+img {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid var(--color-acento);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid var(--color-acento);
+    border-radius: 6px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--color-texto);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid var(--color-acento);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--color-texto);
+    background-color: #ffffff;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    outline: none;
+    border-color: var(--color-primario);
+    box-shadow: 0 0 0 3px rgba(123, 150, 105, 0.25);
+}
+
+form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+form button,
+form input[type="submit"] {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-primario);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background-color: var(--color-secundario);
+}
+
+
+table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table th,
+table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border: 1px solid var(--color-acento);
+    color: var(--color-texto);
+}
+
+table thead {
+    background-color: var(--color-primario);
+    color: #ffffff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f5f1;
+}
+
+table tbody tr:hover {
+    background-color: #e5ece3;
+}
