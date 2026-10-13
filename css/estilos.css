@@ -219,6 +219,11 @@ nav a:hover{
 
 /* footer */
 
+/* iframe */
+iframe {
+    border: 0;
+}
+
 footer {
     background-color: var(--color-secundario);
     border-radius: 12px;
