@@ -4,6 +4,9 @@
     --color-acento: #FC9C44;     
     --color-fondo: #E6E6E6;      
     --color-texto: #742F14;      
+    --color-header: #F4F1EA;
+    --color-header2: #FAF8F5;
+    --color-header3: #2E3829;
     --fuente-principal: "DM Serif Text", serif;
 }
 
@@ -188,8 +191,9 @@ table tbody tr:hover {
 /*  HEADER */
 
 header {
-    background-color: var(--color-fondo);
+    background-color: var(--color-header);
     color: var(--color-texto);
+    border-radius: 12px;
     padding: 1rem 2rem;
 }
 
