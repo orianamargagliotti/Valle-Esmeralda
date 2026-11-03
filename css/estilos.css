@@ -238,3 +238,56 @@ footer {
     text-align: center;
     color: var(--color-texto);
 }
+
+/* Posicionamiento */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+/* Contenedor relativo para ubicar etiquetas con position absoluta */
+.contenedor-relativo {
+    position: relative;
+}
+
+.etiqueta-posicionada {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* Bootstrap // personalizaciones */
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* Personalización del botón */
+.btn-primary {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+    color: #ffffff;
+    font-family: var(--fuente-principal);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+/* Personalización de etiqueta */
+
+.badge {
+    background-color: var(--color-acento);
+    color: #ffffff;
+    font-family: var(--fuente-principal);
+    font-size: 0.85rem;
+    font-weight: normal;
+    padding: 0.4em 0.7em;
+}
