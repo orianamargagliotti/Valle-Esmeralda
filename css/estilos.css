@@ -291,3 +291,26 @@ body {
     font-weight: normal;
     padding: 0.4em 0.7em;
 }
+
+/* Peronalizacion Navbar*/
+.bg-dark {
+    background-color: var(--color-header) !important; 
+}
+
+/*Nombre de la ciudad*/
+.navbar-brand {
+    color: var(--color-primario) !important;
+    font-family: var(--fuente-principal);
+    font-size: 1.8rem;
+}
+
+/*Enlaces del menú*/
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color-texto);
+    font-weight: bold;
+}
+
+/*Cursor sobre link*/
+navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--color-acento);
+}
