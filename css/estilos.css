@@ -314,3 +314,19 @@ body {
 navbar-dark .navbar-nav .nav-link:hover {
     color: var(--color-acento);
 }
+
+/* Flexbox - tarjetas de lugares*/
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contenedor-tarjetas article {
+    flex: 1 1 280px;
+    margin-bottom: 0;
+}
+
+.contenedor-tarjetas article h3 {
+    padding-right: 5rem;
+}
