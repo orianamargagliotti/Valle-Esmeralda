@@ -330,3 +330,12 @@ navbar-dark .navbar-nav .nav-link:hover {
 .contenedor-tarjetas article h3 {
     padding-right: 5rem;
 }
+
+/* Botón hamburguesa visible sobre fondo claro */
+.navbar-toggler {
+    border-color: var(--color-primario);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
