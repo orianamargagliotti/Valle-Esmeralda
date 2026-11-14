@@ -335,3 +335,15 @@ header {
 .navbar-toggler-icon {
     filter: invert(1);
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    mix-blend-mode: multiply;
+}
