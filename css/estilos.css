@@ -259,11 +259,7 @@ header {
 
 /* Bootstrap // personalizaciones */
 
-body {
-    font-family: var(--fuente-principal);
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
-}
+
 
 /* Personalización del botón */
 .btn-primary {
@@ -311,7 +307,7 @@ body {
 }
 
 /*Cursor sobre link*/
-navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: var(--color-acento);
 }
 
