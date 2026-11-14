@@ -347,3 +347,7 @@ header {
     padding: 0;
     mix-blend-mode: multiply;
 }
+
+.oculto {
+    display: none;
+}
