@@ -351,3 +351,30 @@ header {
 .oculto {
     display: none;
 }
+
+/* ======================
+   Modo oscuro
+   ====================== */
+body.oscuro {
+    --color-fondo: #1E2420;
+    --color-texto: #EDE8DC;
+    --color-header: #2E3829;
+    --color-primario: #A3C28F;
+}
+
+body.oscuro h1 {
+    color: #9DB8B3;
+}
+
+body.oscuro .bg-light {
+    background-color: #2B332D !important;
+}
+
+body.oscuro .navbar-toggler-icon {
+    filter: none;
+}
+
+body.oscuro .logo {
+    filter: invert(1);
+    mix-blend-mode: screen;
+}
